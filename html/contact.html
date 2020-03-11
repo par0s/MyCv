@@ -37,11 +37,11 @@
             <table>
                 <tbody><tr>
                     <td><label for="fName">First Name: </label></td>
-                    <td> <input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters only and the length must be between 4 and 8"></td>
+                    <td> <input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{2,10}" required="" title="The field must contain letters only and the length must be between 2 and 10"></td>
                 </tr>
                 <tr>
                     <td> <label for="lName">Last Name: </label>&nbsp;&nbsp;</td>
-                    <td> <input type="text" name="lastName" id="lName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters and the length must be between 4 and 8"></td>
+                    <td> <input type="text" name="lastName" id="lName" pattern="[A-Za-z/d/.]{2,10}" required="" title="The field must contain letters and the length must be between 2 and 10"></td>
                 </tr>
                 <tr>
                     <td> <label for="tel">phone number </label></td>
@@ -74,11 +74,6 @@
                             <option value="Et">Ethiopia</option>
                             <option value="Lo">London</option>
                         </select></td>
-                </tr>
-    
-                <tr>
-                    <td> <label for="price">Rate </label></td>
-                    <td> <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000"></td>
                 </tr>
                
                 <tr>
