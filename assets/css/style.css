@@ -19,7 +19,7 @@ header{
 }
 
 section{
-    /* border: solid 1px; */   
+    border: solid 1px;   
     position: relative;    
     padding: 5px 30px;
     font-family: Arial,Helvetica,sans-serif;    
