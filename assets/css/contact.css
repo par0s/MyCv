@@ -1,0 +1,53 @@
+.contact_map{
+    position: absolute;
+    display: flex;
+    top: 65%;
+    
+    margin-left: 10%;
+    width: 80%;
+    min-height: 60vh;
+    margin-bottom: 10vh;
+}
+
+.map_box{
+    width: 48%;
+    margin-right: 4%;
+}
+
+.form_box{
+    display: block;
+    width: 48%;
+    background-color: yellow;
+}
+
+.fill{
+    display: flex;
+    flex-direction: column;    
+}
+
+.input{
+    position: relative;
+    box-sizing: border-box;
+    margin: 5% 0;
+    padding: 20px 30px;
+}
+
+/* #fName{
+    margin-left: 5%;
+    width: 90%;
+    height: 60px;
+} */
+
+ 
+@media (max-width: 900px){   
+    .contact_map{
+        top: 90%;
+        flex-direction: column;
+    }
+    .map_box{
+        width: 100%;
+    }
+    .form_box{
+        width: 100%;
+    }
+}
