@@ -2,96 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/marker-k.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kidus Yoseph</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/flex.css">
 </head>
 <body>
-<!-- and they say am not a programming language-->
-<nav>
-    <a href="../index.html">Home |</a>
-    <a href="./html/contact.html" target="_blank">Contact |</a>
-    <a href= "./html/gallery.html" target="_blank">Gallery</a>
-</nav>
-<table cellspacing = 10>
-    <tr>
-        <td><img src="./assets/Img/kidA2sv.jpg" width="200" height="200"></td>
-        <td><h1>Kidus Yoseph</h1>
-            <h3>Student, Addis Ababa University</h3>
-            <p>My name is Kidus Yoseph.I am an intermediate front end engineer.</p></td>
-    </tr>
-</table>
-<hr>
+    <nav>   
+        
+        <div class="head">
+            <div class="name">Kidus</div>
+        </div>                    
+        <label for=cbox class="bars">                           
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>  
+        </label>                                                   
+        <ul class="nav_links">            
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="./html/new_contact.html">Contact</a></li>
+            <li><a href="./html/gallery.html">Gallery</a></li>
+            <li><a href="./html/blog.html">&nbsp;&nbsp;Blog</a></li>
+            <li><a href="./html/mywork.html">My Works </a></li>            
+        </ul>        
+    </nav>  
 
-<!-- List -->
-<h3>Hobbies and Interest</h3>
-<ul style="list-style-type:square;">
-    <li>Sport: I like to watch
-        <ul>
-            <li>Football</li>
-            <li>Basketball</li>
-            <li>Handball</li>
-        </ul>
-    </li>
-    <li>Reading Books
-        <ul>
-            <li>Fictions</li>     
-             <ul>
-                 <li>Fikir eske Mekabir</li>
-            </ul>
-            <li>Educational</li>
-        </ul>
-    </li>    
-</ul>
+    <input type="checkbox" id="cbox">
+    <ul class="hidden_nav_links">
+        <li><a href="">&nbsp;Home</a> </li>
+            <li><a href="./html/new_contact.html">Contact</a></li>
+            <li><a href="./html/gallery.html">Gallery</a></li>
+            <li><a href="./html/blog.html">Blog</a></li>
+            <li><a href="./html/mywork.html">My Works </a></li>              
+    </ul>   
 
-<hr>
-
-<h3>Work Experience</h3>
-<table cellspacing = 10>
-    <thead>
-        <td>Job</td>
-        <td>Date</td>
-    </thead>
-    <tbody>
-        <td>Security Expert</td>
-        <td>Before computers were invented</td>
-    </tbody>
-    <tbody>
-        <td>Machine Learning Engineer </td>
-        <td>2000 - 2010 at Microsoft</td>
-    </tbody>
-    <tbody>
-        <td>Lecturer at Alldumbs University</td>
-        <td>2010- 2012</td>
-    </tbody>
-</table>
-<hr>
-
-<h3>Top Skill</h3>
-<table cellspacing = "10">
-    <tr>
-        <td>C++</td>
-        <td>🌟🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-        <td>PHP web development</td>
-        <td>🌟🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-        <td>Python</td>
-        <td>🌟🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-        <td>Java</td>
-        <td>🌟🌟🌟🌟</td>
-    </tr>
-    <tr>
-        <td>Android</td>
-        <td>🌟🌟🌟🌟</td>
-    </tr>    
-
-</table>
-<hr>
-<p align = "center"> &copy; Kidus Yoseph</p>
+    <div class="main-cv">
+        <header>
+            <div class="circle-image">
+                <img src="http://a2sv.org/wp-content/uploads/2020/02/photo_2020-02-06_12-59-55.jpg" alt="">
+            </div>
+            <div class="full-name">
+                <p>Kidus </p>
+                <p>Wondimagegnehu</p>
+                <p id = 'small-job'>Student</p>
+            </div>        
+        </header>        
+    
+        <div class="job"></div>
+        
+        <div class="main-content">
+            <div class="first-col">
+                <div class="personal">
+                    <div class="cv-header"><p>personal details</p></div>
+                    <div class="personal-content">
+                        <div class="sub-header"><p>Birth date</p></div>
+                        <div class="sub-answers"><p>07/14/2000</p></div>
+                        <div class="sub-header"><p>Nationality</p></div>
+                        <div class="sub-answers"><p>Ethiopian</p></div>
+                        <div class="sub-header"><p>Address</p></div>
+                        <div class="sub-answers"><p>Addis Ababa,Ethiopia</p></div>
+                    </div>                    
+                </div>      
+            </div>            
+            <div class="second-col">
+                <div class="experience">
+                    <div class="cv-header"><p>Experience details</p></div>
+                    <ul class="experience-content">
+                        <li class="sub-header"><p>Teaching Assistant at Shewarobit General High and preparatory school</p></li>
+                        <div class="sub-answers"><p>Teaching assistant in shewarobit general high and preparatory which is in shewarobit, Ethiopia on a program that aimed to help students on their studies on their summer break</p></div>
+                        <li class="sub-header"><p>Introduction to Competitive Programming</p></li>
+                        <div class="sub-answers"><p>Took a 3-month intense training program called A2SV which focuses on data structure and algorithms organized by Emre Varol, a former Google and Liftoff engineer, aiming to help students from Ethiopia secure a summer internship in silicon valley companies</p></div>
+                    </ul>
+                </div>
+                <div class="education">
+                    <div class="cv-header">Education</div>
+                    <ul class="experience-content">
+                        <li class="sub-header"><p>Bsc in Software Engineering</p></li>
+                        <p>Addis Ababa Institue of Technology(AAiT)</p>
+                        <div class="extras">
+                            <p>10/2018 - Present</p>
+                            <p>3.98 CGPA</p>
+                        </div>
+                    </ul>
+                </div>  
+                <!-- <div class="programming">
+                    <div class="cv-header">Programming skills</div>
+                    <div class="square1"></div><div class="program1"></div>
+                    <div class="square2"></div><div class="program2"></div>
+                    <div class="square3"></div><div class="program3"></div>
+                    <div class="square4"></div><div class="program4"></div>
+                </div>             -->
+            </div>              
+        </div>
+    </div>
+    
 </body>
 </html>
