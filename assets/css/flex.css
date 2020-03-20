@@ -370,7 +370,7 @@ header{
     #cbox:checked + .hidden_nav_links{        
         width: 100%;
         transition: .8s ease-in-out;
-        visibility: visible;
+        visibility: visible;    
     }
     
 }

@@ -16,8 +16,7 @@
 
 .form_box{
     display: block;
-    width: 48%;
-    background-color: yellow;
+    width: 48%;    
 }
 
 .fill{
@@ -27,16 +26,28 @@
 
 .input{
     position: relative;
+    border: none;
     box-sizing: border-box;
-    margin: 5% 0;
-    padding: 20px 30px;
+    margin: 3% 0;
+    padding: 4% 4%;
+    background-color: rgba(29,191,175,0.4);
+    border-bottom: 1px solid black;
 }
 
-/* #fName{
-    margin-left: 5%;
-    width: 90%;
-    height: 60px;
-} */
+#message{    
+    height: 100px;
+}
+
+#btn{
+    border: none;
+    width: 20%;
+    color: white;
+    border-radius: 1em;
+    margin-left: 78%;
+    text-align: center;
+    padding: 2% 4%;
+    pointer-events: painted;
+}
 
  
 @media (max-width: 900px){   

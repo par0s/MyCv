@@ -1,6 +1,6 @@
 .row1{
     position: absolute;
-    margin: 5% 5%;
+    margin: 5% 5%;    
     width: 90%;
     height: 25%;
 }
@@ -10,6 +10,12 @@
     width:30%;
     height: 100%;
     border: 1px solid;    
+    opacity: 0.85;    
+}
+
+.flag1:hover{
+    transition: ease-in .3s;
+    opacity: 1;
 }
 
 .flag2{
@@ -18,6 +24,12 @@
     width:30%;
     height: 100%;
     border: 1px solid;    
+    opacity: 0.95;    
+}
+
+.flag2:hover{
+    transition: ease-in .3s;
+    opacity: 1;
 }
 
 .flag3{
@@ -26,6 +38,11 @@
     width:30%;
     height: 100%;
     border: 1px solid; 
+    opacity: 0.85;    
+}
+.flag3:hover{
+    transition: ease-in .3s;
+    opacity: 1;
 }
 
 .flag1 .flag1_top{
@@ -152,7 +169,7 @@
 .row2 .flag2 .flag2_bottom{    
     top: 33.3%;    
     height: 33.3%;      
-    background-color: #D84231;
+    background-color: red;
 }
 
 .row2 .flag2 img{
@@ -196,3 +213,158 @@
     width: 100%;
     height: 7%;
 }
+
+.row3{
+    position: absolute;
+    top: 60%;
+    margin: 5% 5%;
+    width: 90%;
+    height: 25%;    
+}
+
+.row3 .flag1 .flag1_left{
+    left: 0%;
+    width: 20%;
+    height: 100%;           
+}
+
+
+.row3 .flag1 .flag1_top{    
+    position: absolute;
+    top: 0%;
+    margin-left: 25%;
+    width: 75%;
+    height: 50%;      
+    background-color: red;
+}
+
+.row3 .flag1 .flag1_bottom{    
+    position: absolute;
+    top: 50%;
+    margin-left: 25%;
+    width: 75%;
+    height: 50%;      
+    background-color: green;
+}
+
+.row3 .flag1 .flag1_right{    
+    position: absolute;
+    top: 0%;
+    margin-left: 66.6%;
+    width: 33.3%;
+    height: 100%;      
+    background-color: rgb(218,31,64);
+}
+
+
+
+
+.row3 .flag2 .flag2_left {
+    background-color: rgb(35,31,32);
+}
+
+.row3 .flag2 .flag2_middle{
+    position: absolute;
+    top: 0%;
+    margin-left: 33.3%;
+    width: 33.3%;
+    height: 100%;  
+    background-color: rgb(255,242,0);
+}
+.row3 .flag2 .flag2_right{
+ background-color: rgb(237,28,36);
+}
+
+.row3 .flag3{
+    background-color: yellow;    
+}
+
+.row3 .flag3 .flag3_left{    
+    position: absolute;
+    top: 0%;    
+    width: 60%;
+    height: 100%;    
+    background-color: green;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.row3 .flag3 .flag3_right{    
+    position: absolute;
+    top: 0%;    
+    width: 60%;    
+    height: 100%;    
+    margin-left: 40%;
+    background-color: red;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.row4{
+    position: absolute;
+    top: 90%;
+    margin: 5% 5%;
+    width: 90%;
+    height: 25%;
+}
+
+
+.row4 .flag1 .top{    
+    top: 0%;    
+    width: 100%;    
+    height: 50%;       
+    background-color: white;
+    float: left;
+}
+
+.row4 .flag1 .bottom{    
+    bottom: 0%;    
+    width: 100%;    
+    height: 50%;       
+    background-color: red;
+    float: left;
+}
+
+.row4 .flag1 .triangle{    
+    top: 0%;        
+    width: 50%;    
+    height: 100%;        
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);        
+    background-color: rgb(0,102,179);       
+}
+
+.row4 .flag2 .circle{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 20%;
+    margin-left: 20%; */
+    clip-path: circle(20% at 50% 50%);
+    background-color: red;
+}
+
+
+.row4 .flag3 .flag3_top{
+    position: relative;
+    top: 0%;
+    height: 33.3%;      
+    background-color: rgb(35,158,70);
+}
+
+.row4 .flag3 .flag3_bottom{
+    position: relative;
+    top: 33.33%; 
+    height: 33.3%;      
+    background-color: rgb(190,0,39);
+    
+}
+
+.row4 .flag3 .trapezium{  
+    position: absolute; 
+    z-index: 10; 
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(100% 33%, 100% 66%, 0 100%, 0 0);
+    float: left;
+}
+
+
+
