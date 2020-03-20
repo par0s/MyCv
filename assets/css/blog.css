@@ -40,7 +40,22 @@ article {
     padding: 0 5%;
 }
 
+.html_image img{
+    margin-left: 2%;
+    width: 100%;
+}
 
+.css_compare{
+    margin-left: 2%;
+    display: flex;
+    width: 100%;
+    
+}
+
+.css_compare img{
+    width: 50%;
+    margin-right: 10px;
+}
 @media (max-width: 750px){   
     body{
         
