@@ -218,7 +218,7 @@ header{
     left: 42%;    
     width: 80%;
     height: 40%;
-    
+    margin-bottom: 50px;    
 }
 
 .education .extras{
@@ -228,14 +228,68 @@ header{
     float: right;
 }
  
-.programming{    
-    background-color: red;    
+.programming{       
+        
     top: 48%;
     left: 42%;    
     width: 80%;
     height: 40%;
+    margin-bottom: 50px;
+}
+.skill-box{
+    padding-top: 20px;
+}
+.skill-box div{
+    padding: 3px 0px;
 }
 
+.measure{
+    position: relative;
+    
+}
+
+#squ{      
+    top: 3px;
+    position: absolute;  
+    width: 80%;
+    height: 30px;
+    background-color: rgba(29,191,175,0.4);    
+}
+
+
+.square1{
+    top: 0px;
+    width: 70%;
+    height: 30px;
+    background-color: rgb(29,191,175);    
+}
+
+
+.square2{
+    top: 0px;
+    width: 50%;
+    height: 30px;
+    background-color: rgb(29,191,175);    
+}
+
+.square3{
+    top: 0px;
+    width: 50%;
+    height: 30px;
+    background-color: rgb(29,191,175);    
+}
+.square4{
+    top: 0px;
+    width: 40%;
+    height: 30px;
+    background-color: rgb(29,191,175);    
+}
+
+.footer{
+    position: relative;
+    top: 100vh;
+    background-color: red;
+}
 
 
 @media (max-width: 1000px){   
