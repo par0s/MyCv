@@ -1,0 +1,59 @@
+#content{
+    top: 13vh;    
+}
+section{    
+
+    position: relative;    
+    padding: 5px 30px;
+    font-family: "medium-content-sans-serif-font", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", Arial, sans-serif;
+    padding: 10px 15%;    
+}
+
+article {    
+    padding: 2%;
+    margin: 20px auto;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 25px;    
+}
+
+.title {    
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+.subtitle{
+    font-size: 1.2rem;    
+    padding: .2em;
+    padding-top: .4em;
+}
+
+.date {
+    font-style: italic;
+    font-size: 15px; 
+    text-transform: uppercase;
+}
+
+.subtopic{
+    /* background-color: red; */
+    list-style: upper-roman;
+    padding: 0 5%;
+}
+
+
+@media (max-width: 750px){   
+    body{
+        
+    }
+    #content{
+        position: absolute;
+        top: 15%;          
+    }
+
+    .title{
+        font-size: 1.2em;
+    }
+    section{
+        font-size: .9em;
+    }
+}

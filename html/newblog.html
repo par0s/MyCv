@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/flex.css">
+    <link rel="stylesheet" href="/assets/css/blog.css">
+</head>
+<body>
+    <nav>   
+        
+        <div class="head">
+            <div class="name">Kidus</div>
+        </div>                    
+        <label for=cbox class="bars">                           
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>  
+        </label>                                                   
+        <ul class="nav_links">            
+            <li><a href="">&nbsp;Home</a> </li>
+            <li><a href="./html/new_contact.html">Contact</a></li>
+            <li><a href="./html/gallery.html">Gallery</a></li>
+            <li><a href="./html/blog.html">&nbsp;Blog</a></li>
+            <li><a href="./html/mywork.html">My Works </a></li>            
+        </ul>        
+    </nav> 
+    <input type="checkbox" id="cbox">
+    <ul class="hidden_nav_links">
+        <li><a href="">Home</a> </li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">My Works </a></li>            
+    </ul>
+    <div id = "content">
+        <section>            
+            <article>
+                <p class = "title">New features in CSS3</p>
+                <p>There are some significant changes in the transition to CSS3. The following points the specific technical changes introduced.</p>
+                <ol>
+                    <li>Multiple background</li>
+                        A background property that is introduced in css3 is the ability to add multiple background images on one line using the background attribute.
+                        
+                        Inorder to make changes to the background images, adding background style attributes like position, fixed, repeat can come after each image before the comma.
+                    <li>Selectors</li>
+                        Besides the old selectors in CSS2 three more attribute selectors are introduced.
+                        <ol class = subtopic>
+                            <li>Element [attribute^="value"] Selector
+                                <p>This selector applies the styles below it on elements with an attribute whose attributes start with value specified.</p>
+                            </li>
+                            <!-- The example above sets the width of an image whose src attribute starts with moon to 100%. -->
+                            <li>Element [attribute$="value"] Selector
+                            <p>This selector applies the styles below it on elements with an attribute whose attributes ends with value specified.</p>
+                            </li>
+                            <!-- The example above sets the width of an image whose src attribute starts with moon to 100%. -->
+                            <li>
+                            Element [attribute*="value"] Selector
+                            <p>This selector applies the styles below it on elements with an attribute whose attributes includes value specified.</p>
+                            <!-- The example above sets the width of an image whose src attribute includes the value “walk” in it. -->
+                        </ol>
+                    <li>Pseudo-classes</li>
+                        The following pseudo-classes were added to css3.
+                        <ol class="subtopic">
+                            <li>:root
+                            <p>This selector allows to select the root element in our DOM hierarchy ("html"for webpages).since CSS can be used for xml and svg too, it doesn’t necessarily mean html".</li></p>
+                            <li>:last-child
+                            <p>Using  :last-child the last child of a given selector can be modified.</p></li>
+                        </ol>
+                        <!-- In the example given above last paragraph inside “article” classe will be italic. -->
+                        
+                    <li>Colors</li>
+                        Besides the old hexadecimal and rgb ways to add colors, CSS3 brings the following two ways that gives us more control over colors.
+                        <ol class="subtopic">
+                            <li>RGBA
+                            <p>It is the same as rgb but accepts a third parameter to control the opacity of the color we have chosen. The fourth argument is between 1 and 0(where 0 is transparent and 1 is opaue).</p></li>
+                            <li>Opacity
+                            <p>If we don’t want to use the rgba, the opacity option lets us control the opacity of the color after specifying it with rgb or hexadecimal notation.</p></li>
+                            <li>HSL and HSLA
+                            <p>These are important In order to change the hue, saturation and lightness. The hsl function accepts three parameters as degree for the hue,percentage for saturation and lightness.</p></li>
+                        </ol>
+                    <li>Drop shadows</li>
+                        These styles add a dropping shadow to an image. The inputs are specifies as the box shadow property that control the color, width, height, blue and offset of the shadow.
+                    <li>Text shadows</li>
+                            Similar to the drop shadows for texts. These attribute accepts X and Y offsets from the element,      blur radius, and color.
+                    <li>border radius</li>
+                            Border radius lets us control the radius(roundedness) of corners. It can accepts one input that lets it to be used for every corner or accepts four inputs if we want to use different corner radiuses.
+                </ol>
+            </article>         
+            <p class = "date">March 17, 2020</p>
+        </section>
+        <section>
+            <article>
+                <p class = "title">How does a browser interpret pixel upscaling? </p>
+            </article>
+            <p class = "date">March 20, 2020</p>
+        </section>
+        <section>
+            <article>
+                <p class = "title">Why relative size matters in CSS?</p>
+                <p>Back then, when there were no differences between size of computers, using pixel-based styling in our css never raised an issue. But when computers started to come in different sizes, actual measured(pixel) stylings started to show different styles on different machines. These is one of the reasons why relative sizes should be used. The other important thing to consider is browser zooming.
+                <p class= "subtitle">Browzer zooming</p>
+                    When browser zooming is used, it scales up the whole content of the page in proportion. That means it won’t have much difference whether we used relative or fixed measurements. But here let’s consider the type of browser zooming that enables us to adjust preferred font size. Accommodating this feature is important if short sighted people are to view the site. 
+                    </p>
+            </article>
+            <p class = "date">March 18, 2020</p>
+        </section>
+    </body>
+</html>

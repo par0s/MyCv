@@ -47,8 +47,9 @@
     text-align: center;
     padding: 2% 4%;
     pointer-events: painted;
+    background-color: rgb(29,191,175);
+    
 }
-
  
 @media (max-width: 900px){   
     .contact_map{
