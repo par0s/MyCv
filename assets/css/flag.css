@@ -1,3 +1,16 @@
+.name-tag{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+p{
+    position: absolute;
+    color: black;
+    top: 92%;
+    
+}
 .row1{
     position: absolute;
     margin: 5% 5%;    

@@ -285,11 +285,6 @@ header{
     background-color: rgb(29,191,175);    
 }
 
-.footer{
-    position: relative;
-    top: 100vh;
-    background-color: red;
-}
 
 
 @media (max-width: 1000px){   
